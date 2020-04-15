@@ -31,7 +31,6 @@ public class OpimizedPrimeFactorization implements Runnable {
                         e.printStackTrace();
                     }
                     System.out.println(Thread.currentThread().getName() + " " + i);
-                    notifyAll();
                 }
             }
         }
